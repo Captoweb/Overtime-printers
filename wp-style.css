@@ -1,0 +1,315 @@
+.block1{
+    border: 2px solid black;
+}
+.d-block w-100{
+    height: 350vh;
+    width: auto;
+}
+     
+.bg1{
+    background-color: #1E1939;
+    color: #fff;
+    
+}
+
+.city{
+     background-color: #D3D3D3;
+}
+.tel{
+     background-color: #D3D3D3;
+}
+.services{
+     background-color: #DCDCDC;
+    
+}
+.ourplus{
+    background-color: #DCDCDC;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.aboutus{
+    background-color: #E9E9E9;
+    padding-bottom: 10px;
+  
+}
+.footer{
+    background-color: #1E1939;
+    color: #fff;
+    width: auto;
+}
+.section1{
+   background-color: #1E1939; 
+}
+.bg-grey{
+    background-color: #D3D3D3;
+    color: #fff;
+}
+
+.card {
+    background-color: #D3D3D3;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    margin-top: 25px;
+    color: #000;
+}
+.card:hover {
+    cursor: pointer;
+    opacity: .6;
+    color: #000;
+    text-decoration: none;
+}
+.card-text{
+    text-align: center;
+}
+.card2{
+    background-color: #D3D3D3;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.card-body{
+   background-color: #D3D3D3;    
+}
+h3{
+    text-align: center;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    text-indent: 1.5em;
+    font-size: 16px;
+}
+.icons{
+    font-size: 50px;
+    color: #fff;
+    padding-top: 5px;
+}
+.metaslider .rslides_tabs{
+    background: #ccc;
+       
+}
+.metaslider .rslides_tabs{
+    margin: 0 !important;
+}
+
+
+
+
+.navbar-nav li a{
+    color: #fff;
+}
+
+.collapse navbar-collapse{
+    background: #ddd;
+} 
+
+.dropdown-item{
+    background: #1e1939;
+}   
+.dropdown-item:hover{
+    background: #ccc;
+} 
+.dropdown-menu{
+    background: #999;
+}
+
+
+#searchform {
+padding: 0.5rem;
+}
+#searchsubmit {
+  border-radius: 4px;
+  background: #fff;
+  padding: 1px 10px 3px 10px;
+}  
+#searchsubmit:hover {
+ cursor: pointer;
+ background: #E9E9E9;
+} 
+#s{
+   border-radius: 4px; 
+} 
+
+
+  
+#footer {
+padding: 25px 0;
+}  
+
+.footer p{
+    text-align: center;
+}
+
+ul.rslides_tabs .rslides1_tabs{
+    margin: 0;
+}
+
+.breadcrumb_m ul li{
+    display: inline-block;
+}
+.breadcrumb_m {
+   margin: 15px 0 0 15px;
+}
+
+.logo{
+    width:100px;
+}
+
+.nf-form-content{
+display: block;
+max-width: 100%;
+padding: .375rem 1.75rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #D3D3D3;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: .25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
+.ninja-forms-field{
+    border-radius: 4px;
+} 
+
+#nf-field-8:hover{
+    background: #B5B4BE; 
+}
+
+
+
+@media only screen and (max-width : 948px){
+   #searchsubmit{
+    margin-left: 5px;
+    margin-top: 5px;
+ } 
+}
+
+
+
+@media only screen and (min-width : 992px){
+  
+ .card-text{
+    text-align: center;
+    margin-right: 20px;
+  }
+ 
+}
+
+
+@media only screen and (max-width : 768px){
+  .tablepress .column-1,    
+  .tablepress .column-2,
+  .tablepress .column-3{
+	width: 200px;
+  } 
+  .tablepress .column-4{
+	width: 100px;
+  }
+ 
+ .card-text{
+    margin-right: 5px;
+ }
+}
+
+
+
+@media only screen and (max-width : 576px){
+    
+.tablepress .column-1{
+    width: 200px;
+  }   
+.tablepress .column-2,
+.tablepress .column-3{
+	width: 100px;
+  }
+ 
+.tablepress .column-4{
+	width: 80px;
+  }
+  
+ .card-text{
+    text-align: center;
+    margin-right: 20px;
+ }
+.card2 p{
+    margin-right: 20px;
+ }
+}
+
+@media only screen and (min-width : 576px){
+    .card-text{
+    margin-right: 4px;
+ }
+.card2 p{
+    margin-right: 20px;
+ }
+    
+}
+@media only screen and (max-width : 560px){
+       .card-text{
+    margin-right: 6px;
+ } 
+}
+
+@media only screen and (max-width : 520px){
+.tablepress .column-1{
+     display: none;
+  }   
+
+.tablepress .column-2{
+	width: 100px;
+  }
+  .tablepress .column-3{
+	width: 120px;
+  }
+ 
+.tablepress .column-4{
+	width: 60px;
+  }
+
+} 
+
+
+
+@media only screen and (max-width : 360px){
+    
+.tablepress .column-2,
+.tablepress .column-3{
+	width: 100px;
+  }
+.tablepress .column-1{
+    display: none;
+  } 
+.tablepress .column-4{
+	width: 60px;
+  }
+}
+
+/**Эффект увеличения**/ 
+.zoom {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.zoom:hover {
+	 -webkit-transform: scale(2.5);
+	 -moz-transform: scale(2.5);
+	 -o-transform: scale(2.5);
+ transform: scale(2.5);
+	 -webkit-transition: all 0.4s ease;
+	 -moz-transition: all 0.4s ease;
+	 transition: all 0.4s ease;
+	 margin-left: 20px;
+}
+
+     
+    
